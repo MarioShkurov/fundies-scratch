@@ -36,3 +36,4 @@ below(circle(40, "solid", "blue"), rectangle(80, 60, "solid", "yellow"))
 #beside((first image), (second image))
 beside(circle(40, "solid", "blue"), rectangle(80, 60, "solid", "yellow"))
 regular-polygon(80,8, "solid", "red")
+
