@@ -19,7 +19,7 @@ string-substring("Welcome to London", 0, 7) #= "Welcome"
 sample-string = "Hello, my name is Maro and I now live in London."
 
 
-#To check certain charavters exist on a string: 
+#To check certain characters exist on a string: 
 string-contains(sample-string,"hello maro") #= False, because hello maro (case sensitive) is NOT on my sample string. 
 
 #To make shapes
@@ -35,5 +35,3 @@ above(circle(40, "solid", "blue"), rectangle(80, 60, "solid", "yellow"))
 below(circle(40, "solid", "blue"), rectangle(80, 60, "solid", "yellow"))
 #beside((first image), (second image))
 beside(circle(40, "solid", "blue"), rectangle(80, 60, "solid", "yellow"))
-regular-polygon(80,8, "solid", "red")
-
